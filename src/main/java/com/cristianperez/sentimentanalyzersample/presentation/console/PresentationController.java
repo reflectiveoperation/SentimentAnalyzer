@@ -16,7 +16,6 @@ public class PresentationController {
     private SentimentAnalyzerService sentimentAnalyzerService;
 
     public void start() {
-//        sentimentAnalyzerService.initialize();
         SentimentResult sentimentResult = sentimentAnalyzerService.getSentimentResult(text);
         printResults(sentimentResult);
     }

@@ -1,8 +1,6 @@
 package com.cristianperez.sentimentanalyzersample.logic.models;
 
-import org.springframework.stereotype.Component;
 
-@Component
 public class SentimentResult {
 
     private String sentimentType;
